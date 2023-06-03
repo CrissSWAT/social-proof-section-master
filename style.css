@@ -153,6 +153,8 @@ main {
   main {
     background-image: url("./images/bg-pattern-top-desktop.svg");
     background-repeat: no-repeat;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
   .parte1 {
     width: 35rem;
