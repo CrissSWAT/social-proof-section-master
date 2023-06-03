@@ -9,6 +9,8 @@ main {
   min-height: 100vh;
   align-items: center;
   font-family: "League Spartan", sans-serif;
+  background-image: url("./images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
 }
 .conenedor {
   display: flex;
@@ -27,6 +29,7 @@ main {
 .parte1 p {
   color: hsl(303, 10%, 53%);
   font-weight: 500;
+  font-size: large;
 }
 
 .parte2 {
@@ -85,44 +88,105 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-  .contenedor {
-    
-  }
-  .parte1{
-    display: flex;
-    flex-direction: column;
-    /* padding: 0 3rem; */
-    text-align: left;
-    justify-content: left;
-    
-  }
-  .parte2 {
-    display: flex;
-    flex-direction: colum;
-    padding: 0.5rem;
-    /* margin: 1rem; */
-  }
-  .parte2h3{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    margin: 1rem; */
-  }
-
   .parte1y2 {
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    margin: 1rem;
-   
   }
-  .contenedorParte2{
+  .parte1 {
+    width: 15rem;
+  }
+  .parte1 h1 {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  .parte1 p {
+    text-align: left;
+    font-size: large;
+  }
+  .parte2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .tarjeta1 {
+    margin-right: 3rem;
+    height: 1rem;
+    align-items: center;
+  }
+  .tarjeta2 {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    height: 1rem;
+    align-items: center;
+  }
+  .tarjeta3 {
+    margin-left: 3rem;
+    height: 1rem;
+    align-items: center;
+  }
+  .estrellas img {
+    padding: 2px;
+  }
+  .parte2h3 {
+    padding: 1rem;
   }
 
-  .contenedorParte3{
-  display: flex;
-  flex-direction: row;
+  .contenedorParte3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .parte3 {
+    padding: 1rem;
+  }
+  .etiqueta1 {
+    margin-bottom: 3rem;
+  }
+  .etiqueta2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .etiqueta3 {
+    margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main {
+    background-image: url("./images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+  }
+  .parte1 {
+    width: 35rem;
+  }
+  .parte1 h1 {
+    text-align: left;
+    font-size: 50px;
+    width: 20rem;
+  }
+  .parte1 p {
+    text-align: left;
+    width: 27rem;
+  }
+
+  .tarjeta1 {
+    margin-right: 6rem;
+  }
+  .tarjeta2 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+  .tarjeta3 {
+    margin-left: 6rem;
+  }
+  .parte3 {
+    padding: 3rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .parte1 {
+    width: 50rem;
   }
 }
