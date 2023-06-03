@@ -25,6 +25,7 @@ main {
 .parte1 h1 {
   color: hsl(300, 43%, 22%);
   font-weight: 700;
+  padding: 1rem;
 }
 .parte1 p {
   color: hsl(303, 10%, 53%);
@@ -44,6 +45,10 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 0.5rem;
+}
+.estrellas img{
+  padding: 2px;
 }
 .parte2h3 {
   display: flex;
